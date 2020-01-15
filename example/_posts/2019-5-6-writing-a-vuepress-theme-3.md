@@ -1,8 +1,9 @@
 ---
 title: writing a vuepress theme 3
 date: 2019-5-6
-tag: 
+tags: 
   - theme
+  - blog
   - blog
   - vuepress
 author: ULIVZ

@@ -16,13 +16,16 @@ title: Hello World
 ---
 ```
 
-## tag/tags
+## tags
 
 - Type: `string|string[]`
 - Default: `undefined`
 - Required: `false`
 
-The key to classifier pages.
+The key to classifier pages and will also be displayed in the post:
+
+<img src="../assets/tags.png" width="350px"/>
+<img src="../assets/content-tags.png" width="350px"/>
 
 e.g.
 
@@ -40,9 +43,10 @@ tags:
 - Default: `undefined`
 - Required: `false`
 
-Date for the post. This will be used for permalink and displayed in the layout:
+Date for the post. This will be used for permalink and displayed in the post:
 
-![Date](../assets/date.png)
+<img src="../assets/date.png" width="350px"/>
+<img src="../assets/content-date.png" width="350px"/>
 
 e.g.
 ```markdown
@@ -57,9 +61,10 @@ date: 2016-10-20
 - Default: `undefined`
 - Required: `false`
 
-Author for the post. This will be displayed in the layout:
+Author for the post. This will be displayed in the post:
 
-![Author](../assets/author.png)
+<img src="../assets/author.png" width="350px"/>
+<img src="../assets/content-author.png" width="350px"/>
 
 e.g.
 
@@ -75,9 +80,10 @@ author: ULIVZ
 - Default: `undefined`
 - Required: `false`
 
-Location for the post. This will be displayed in the layout:
+Location for the post. This will be displayed in the post:
 
-![Location](../assets/location.png)
+<img src="../assets/location.png" width="350px"/>
+<img src="../assets/content-location.png" width="350px"/>
 
 e.g.
 
@@ -93,7 +99,7 @@ location: Hangzhou
 - Default: `undefined`
 - Required: `false`
 
-Summary for the post. This will be displayed in the layout:
+Summary for the post. This will be displayed in the post:
 
 ![Summary](../assets/summary.png)
 
